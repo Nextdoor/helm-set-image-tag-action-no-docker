@@ -1,3 +1,11 @@
+This is a fork of the original [helm-set-image-tag-action](https://github.com/Nextdoor/helm-set-image-tag-action) but it does not require docker build.
+
+This action assumes the following dependencies are installed:
+* git
+* [helm-docs](https://github.com/norwoodj/helm-docs)
+* [pybump](https://pypi.org/project/pybump/)
+(other dependencies are already provided by the [Github Actions runner](https://github.com/actions/runner-images/blob/main/images/linux/Ubuntu2204-Readme.md#tools))
+
 # `helm-set-image-tag-action`
 
 This action is designed to help you automatically update your Helm charts to
